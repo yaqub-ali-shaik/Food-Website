@@ -1,0 +1,44 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.banner-section-bg-container {
+    background-image: url('your-banner-image-url-here');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.custom-button, .custom-outline-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.custom-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.custom-outline-button {
+    background-color: transparent;
+    color: #28a745;
+    border: 2px solid #28a745;
+}
+
+/* Add other CSS styling for different sections like cards, menu, etc. */
+
